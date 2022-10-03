@@ -1,0 +1,36 @@
+#google-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#acc-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#uploadcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name-input{
+    border: 3px solid black;
+    width: 30vw;
+    background-color: beige;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#docsubmit{
+    border: 2px solid black;
+    background-color: beige;
+    color: black;
+}
+
+#logoutbtn{
+    border: 3px solid black;
+    
+}
