@@ -35,20 +35,37 @@
 #secondcontainer{
     display: flex;
     align-items: flex-start;
-    /* bord/er: 5px solid black; */
+    /* border: 3px solid black; */
     height: 35vh;
     padding-left: 3%;
+    
 }
 
 #login-btn{
-    height: 100%;
+    height: 50%;
     display: flex;
-    padding-right: 10%;
+    padding-right: 17%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 3%;
 }
+
+
 #secondleft{
     width: 50%;
     padding-top: 7%;
+}
+#image{
+    cursor: pointer;
+}
+
+#image:hover{
+    filter: opacity(50%);
+}
+
+#section3{
+    height: 35vh;
+    /* border: 3px solid black; */
+    background-color: #46c5ef;
 }

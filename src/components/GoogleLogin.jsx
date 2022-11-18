@@ -52,7 +52,7 @@ export default function GoogleLogin() {
         <div>
           <div id="secondleft">
             <h2>Mission Statement</h2>
-            <h4>
+            <h4> 
               Companies of all sizes will enjoy the cost savings and benefits of
               Risk Management that the Fortune 500 and many large companies
               already receive. A data-driven, objective process replaces the
@@ -62,14 +62,20 @@ export default function GoogleLogin() {
         </div>
         <div id="login-btn">
           <h2>To see a demo click below!</h2>
-        <button onClick={() => handleGoogleLogin()}>
+        {/* <button onClick={() => handleGoogleLogin()}> */}
           <img
+        id="image"
+          onClick={() => handleGoogleLogin()}
           style={{height:"50%"}}
             src="https://firebasestorage.googleapis.com/v0/b/intellirisk-mvp.appspot.com/o/btn_google_signin_dark_focus_web%402x.png?alt=media&token=7a9736a2-34de-40ed-9333-3f54e617e0d3"
           />
-        </button>
+        {/* </button> */}
+        
         </div>
       </div>
+      <div id="section3">
+
+        </div>
     </>
   );
 }
