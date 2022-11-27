@@ -1,0 +1,164 @@
+#header-left{
+    width: 40vw;
+    /* border: 5px solid black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 3%;
+    color:white;
+   
+}
+
+#header-container{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+    background-color: #3EB1D6;
+
+}
+
+@media screen and (max-width:800px) {
+   #header-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+   }
+   #headerimg{width: 50vw;}
+
+   #secondcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+
+
+
+#header-right{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10vw;
+    height: 30vh;
+    padding-top: 2.5vh;
+}
+
+#header-txt{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#secondcontainer{
+    display: flex;
+    align-items: flex-start;
+    /* border: 3px solid black; */
+    height: 35vh;
+    padding-left: 3%;
+    
+}
+
+#login-btn{
+    height: 50%;
+    display: flex;
+    padding-right: 17%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+
+#secondleft{
+    width: 50%;
+    padding-top: 7%;
+}
+#image{
+    cursor: pointer;
+}
+
+#image:hover{
+    filter: opacity(50%);
+}
+
+#section3 {
+    height: 35vh;
+    display: flex;
+    background-color: #3EB1D6;
+    flex-direction: row;
+}
+
+#third-left{
+padding-top: 2.5vh;
+display: flex;
+height: 30vh;
+margin-left: 3vw;
+
+}
+
+#third-right {
+    width: 40%;
+    padding-top: 4%;
+    padding-left: 35%;
+    font-size: 20px;
+    color: white;
+}
+
+#fourth{
+    height: 35vh;
+    width: 100vw;
+    display: flex;
+}
+
+#fourth-left{
+    width: 50%;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth-right{
+    margin-left: 30vw;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#fifth-container{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #FBCBCB;
+    flex-direction: column;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    height: 35vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
