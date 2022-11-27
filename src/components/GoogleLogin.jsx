@@ -44,6 +44,7 @@ export default function GoogleLogin() {
         </div>
         <div id="header-right">
           <img
+            id = "headerimg"
             style={{ borderRadius: "50%" }}
             src="https://firebasestorage.googleapis.com/v0/b/intellirisk-mvp.appspot.com/o/Screen%20Shot%202022-11-16%20at%201.20.57%20PM.png?alt=media&token=abbadadd-a645-44b3-83fa-a285ca502e4c"
           />
@@ -86,7 +87,6 @@ export default function GoogleLogin() {
           company's financials to match exposures to the necessary insurance
           needed to mitigate that risk.{" "}
         </h3>
-        
       </div>
       <div id = "fourth">
       <div id = "fourth-left">
@@ -99,6 +99,15 @@ export default function GoogleLogin() {
       </div>
       </div>
       <div id = "fifth-container">
+        <h2>The Future</h2>
+       <ul id = "list">
+       <li>CPA dashboard: A home page for the CPA to manage documents.</li>
+       <li>Collaborative Tools: The ability to allow agents to work with CPA's and organizations with ease.</li>
+       <li>Pre-Fill Application: Allow users to create documents with a easy to read, single format.</li>
+          </ul>
+      </div>
+      <div id = "footer">
+        <p>Social media coming soon</p>
       </div>
     </>
   );
