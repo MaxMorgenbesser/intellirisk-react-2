@@ -63,7 +63,7 @@
 
 #secondleft{
     width: 50%;
-    padding-top: 7%;
+    padding-top:5%;
 }
 #image{
     cursor: pointer;
@@ -83,16 +83,16 @@
 #third-left{
 padding-top: 2.5vh;
 display: flex;
-height: 30vh;
+height: 35vh;
 margin-left: 3vw;
-
+    
 }
 
 #third-right {
     width: 40%;
     padding-top: 4%;
-    /* padding-left: ; */
-    font-size: 20px;
+    padding-left: 40%;
+    font-size: 25px;
     color: white;
 }
 

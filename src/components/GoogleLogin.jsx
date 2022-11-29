@@ -88,7 +88,7 @@ export default function GoogleLogin() {
           buying process ensures that your clients spend too much for insurance
           and may not be properly covered. intellRisk Solutions utilizes a
           company's financials to match exposures to the necessary insurance
-          needed to mitigate that risk.{" "}
+          needed to mitigate that risk.
         </h3>
       </div>
       <div id="fourth">
