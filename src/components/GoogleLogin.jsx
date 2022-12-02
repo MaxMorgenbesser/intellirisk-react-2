@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { data } from "../App";
 import { useContext } from "react";
 import "./GoogleLogin.css";
-import headshot from '../Assets/neil-headshot.jpeg'
+import headshot from "../Assets/neil-headshot.jpeg";
 
 export default function GoogleLogin() {
   const { setUserEmail, setUserToken } = useContext(data);
@@ -37,14 +37,17 @@ export default function GoogleLogin() {
       <div id="header-container">
         <div id="header-left">
           <div id="header-txt">
-            <h1 style={{fontSize:"50px"}}>IntelliRisk</h1>
+            <h1 style={{ fontSize: "50px" }}>IntelliRisk</h1>
 
-            <h3 style={{fontSize:"25px"}}> Using Data to Increase Revenue in the Insurance Sale!</h3>
+            <h3 style={{ fontSize: "25px" }}>
+              {" "}
+              Using Data to Increase Revenue in the Insurance Sale!
+            </h3>
           </div>
         </div>
         <div id="header-right">
           <img
-            id = "headerimg"
+            id="headerimg"
             style={{ borderRadius: "50%" }}
             src="https://firebasestorage.googleapis.com/v0/b/intellirisk-mvp.appspot.com/o/Screen%20Shot%202022-11-16%20at%201.20.57%20PM.png?alt=media&token=abbadadd-a645-44b3-83fa-a285ca502e4c"
           />
@@ -75,38 +78,52 @@ export default function GoogleLogin() {
         </div>
       </div>
       <div id="section3">
+        <div id = "third-lft-ctner">
         <img
           id="third-left"
           style={{ borderRadius: "50%" }}
           src="https://firebasestorage.googleapis.com/v0/b/intellirisk-mvp.appspot.com/o/Screen%20Shot%202022-11-16%20at%201.20.57%20PM.png?alt=media&token=abbadadd-a645-44b3-83fa-a285ca502e4c"
         />
-        <h3 id = "third-right">
+        </div>
+        <h3 id="third-right">
           A broken, archaic, non-transparent, and friction filled insurance
           buying process ensures that your clients spend too much for insurance
           and may not be properly covered. intellRisk Solutions utilizes a
           company's financials to match exposures to the necessary insurance
-          needed to mitigate that risk.{" "}
+          needed to mitigate that risk.
         </h3>
       </div>
-      <div id = "fourth">
-      <div id = "fourth-left">
-<img style = {{height:"30vh"}}src={headshot}></img>
-
+      <div id="fourth">
+        <div id="fourth-left">
+          <img style={{ height: "30vh" }} src={headshot}></img>
+        </div>
+        <div id="fourth-right">
+          <h2>Our Founder</h2>
+          <h3>
+            Neil A Levy CPA, MBA our founder is a former CPA and also an analyst
+            at an investment bank before becoming a risk manager in the
+            insurance industry for over 15 years. He sold his insurance agency
+            to a large Private Equity company and has seen how his large
+            company's enjoy a sophisticated and cost efficient insurance buying
+            experience while his medium to smaller insurance clients suffer.{" "}
+          </h3>
+        </div>
       </div>
-      <div id = "fourth-right">
-        <h2>Our Founder</h2>
-        <h3>Neil A Levy CPA, MBA our founder is a former CPA and also an analyst at an investment bank before becoming a risk manager in the insurance industry for over 15 years.  He sold his insurance agency to a large Private Equity company and has seen how his large company's enjoy a sophisticated and cost efficient insurance buying experience while his medium to smaller insurance clients suffer. </h3>
-      </div>
-      </div>
-      <div id = "fifth-container">
+      <div id="fifth-container">
         <h2>The Future</h2>
-       <ul id = "list">
-       <li>CPA dashboard: A home page for the CPA to manage documents.</li>
-       <li>Collaborative Tools: The ability to allow agents to work with CPA's and organizations with ease.</li>
-       <li>Pre-Fill Application: Allow users to create documents with a easy to read, single format.</li>
-          </ul>
+        <ul id="list">
+          <li>CPA dashboard: A home page for the CPA to manage documents.</li>
+          <li>
+            Collaborative Tools: The ability to allow agents to work with CPA's
+            and organizations with ease.
+          </li>
+          <li>
+            Pre-Fill Application: Allow users to create documents with a easy to
+            read, single format.
+          </li>
+        </ul>
       </div>
-      <div id = "footer">
+      <div id="footer">
         <p>Social media coming soon</p>
       </div>
     </>
