@@ -78,11 +78,13 @@ export default function GoogleLogin() {
         </div>
       </div>
       <div id="section3">
+        <div id = "third-lft-ctner">
         <img
           id="third-left"
           style={{ borderRadius: "50%" }}
           src="https://firebasestorage.googleapis.com/v0/b/intellirisk-mvp.appspot.com/o/Screen%20Shot%202022-11-16%20at%201.20.57%20PM.png?alt=media&token=abbadadd-a645-44b3-83fa-a285ca502e4c"
         />
+        </div>
         <h3 id="third-right">
           A broken, archaic, non-transparent, and friction filled insurance
           buying process ensures that your clients spend too much for insurance

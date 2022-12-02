@@ -16,7 +16,9 @@
     background-color: #3EB1D6;
 
 }
-
+#third-lft-ctner{
+width: 50%;
+}
 
 
 
@@ -30,6 +32,7 @@
     padding-left: 10vw;
     height: 30vh;
     padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
 }
 
 #header-txt{
@@ -85,13 +88,17 @@ padding-top: 2.5vh;
 display: flex;
 height: 35vh;
 margin-left: 3vw;
-    
+ padding-bottom: 2.5vh;   
 }
 
 #third-right {
-    width: 40%;
+    /* width: 40%; */
+    height: 100%;
     padding-top: 4%;
-    padding-left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
     font-size: 25px;
     color: white;
 }
@@ -195,8 +202,17 @@ width: 106vw;
 
 /* width: fit-content; */
 }
-#third-right{
+
+#third-left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
+}
+#third-right{
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 #fourth{
     display: flex;
